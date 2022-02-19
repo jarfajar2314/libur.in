@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libur.in</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/84ad651da7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav" id="nav">
+            <a href="#" class="logo">
+                <img src="assets/img/logo.svg" alt="Logo Libur.in">
+            </a>
+            <a href="#destinations">Destinations</a>
+            <a href="#benefits">Benefits</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <!-- Home -->
+        <div class="card" id="home">
+            <div class="slider">
+                <div class="slides">
+                    <div id="slide-1">
+                        <img src="assets/img/bromo.jpg" alt="Bromo">
+                        <div class="caption">
+                            <h1>Mt. Bromo</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid temporibus consequatur cupiditate nisi reprehenderit. Magni sequi minus a quibusdam ullam sapiente voluptatem architecto minima. Sit ullam magni eius soluta harum. </p>
+                        </div>
+                    </div>
+                    <div id="slide-2">
+                        <img src="assets/img/prau.jpg" alt="Bromo">
+                        <div class="caption">
+                            <h1>Mt. Prau</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid temporibus consequatur cupiditate nisi reprehenderit. Magni sequi minus a quibusdam ullam sapiente voluptatem architecto minima. Sit ullam magni eius soluta harum. </p>
+                        </div>
+                    </div>
+                    <div id="slide-3">
+                        <img src="assets/img/gede-pangrango.jpg" alt="Bromo">
+                        <div class="caption">
+                            <h1>Mt. Gede</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid temporibus consequatur cupiditate nisi reprehenderit. Magni sequi minus a quibusdam ullam sapiente voluptatem architecto minima. Sit ullam magni eius soluta harum. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text">
+                <p>Libur.in is the solution for your travel needs from flight, hotel, attraction, tour, and many more. Over 1.5 billion people already using Libur.in as their travel partner. Just tell what you needs and we will provide all you needs. No need to wait, plan your trip at Libur.in right now, I mean seriously. <b>Right</b>. <b>Now</b>.</p>
+                <a href="#" class="btn">Book Now</a>
+            </div>
+        </div>
+        <!-- Destinations -->
+        <div id="destinations">
+            <header>
+                <h1>Destinations</h1>
+            </header>
+            <div class="container">
+                <a href="" onmouseover="showBook(this)" onmouseout="hideBook(this)">
+                    <div class="card">
+                        <img src="assets/img/rinjani.jpg" alt="Mt. Rinjani">
+                        <article>
+                            <h3>Mt. Rinjani</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>Start from <span class="price">IDR 3,000K</span></p>
+                        </article>
+                        <div class="bookBtn hide">
+                            Book
+                        </div>
+                    </div>
+                </a>
+                <a href="" onmouseover="showBook(this)" onmouseout="hideBook(this)">
+                    <div class="card">
+                        <img src="assets/img/bali.jpg" alt="Bali">
+                        <article>
+                            <h3>Bali</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>Start from <span class="price">IDR 2,000K</span></p>
+                        </article>
+                        <div class="bookBtn hide">
+                            Book
+                        </div>
+                    </div>
+                </a>
+                <a href="" onmouseover="showBook(this)" onmouseout="hideBook(this)">
+                    <div class="card">
+                        <img src="assets/img/borobudur.jpg" alt="Borobudur">
+                        <article>
+                            <h3>Borobudur</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p>Start from <span class="price">IDR 850K</span></p>
+                        </article>
+                        <div class="bookBtn hide">
+                            Book
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- Benefits -->
+        <div id="benefits">
+            <header>
+                <h1>Benefits</h1>
+            </header>
+            <div class="container">
+                <aside>
+                    <img src="assets/img/illust1.svg" alt="Illustration 1">
+                </aside>
+                <article>
+                    <h2>Best Place Recommendation</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In malesuada, eros ac hendrerit commodo, libero tellus tincidunt augue, ornare mollis nulla lorem id nisi. Integer pretium aliquam porta. Nullam eget dignissim eros.</p>
+                </article>
+            </div>
+            <div class="container">
+                <aside>
+                    <img src="assets/img/illust2.svg" alt="Illustration 1">
+                </aside>
+                <article>
+                    <h2>World Wide Destinations</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In malesuada, eros ac hendrerit commodo, libero tellus tincidunt augue, ornare mollis nulla lorem id nisi. Integer pretium aliquam porta. Nullam eget dignissim eros.</p>
+                </article>
+            </div>
+            <div class="container">
+                <aside>
+                    <img src="assets/img/illust3.svg" alt="Illustration 1">
+                </aside>
+                <article>
+                    <h2>Capture Precious Moments</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In malesuada, eros ac hendrerit commodo, libero tellus tincidunt augue, ornare mollis nulla lorem id nisi. Integer pretium aliquam porta. Nullam eget dignissim eros.</p>
+                </article>
+            </div>
+        </div>
+        <!-- About -->
+        <aside id="about">
+            <header>
+                <h1>About</h1>
+            </header>
+            <div class="card">
+                <aside>
+                    <img src="assets/img/me.png" alt="My Photo">
+                </aside>
+                <article>
+                    <h1>Creator</h1>
+                    <h2>Muhammad Fajar Yusuf Firdaus</h2>
+                    <h3>Universitas Pendidikan Indonesia</h3>
+                    <p>Bangkit Academy Student - Cloud Computing Path</p>
+                    <p>CC-29 | C2299f2558</p>
+                    <span>
+                        <a href="mailto:mfajaryusuf@upi.edu">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mfajaryusuf/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://instagram.com/jarfajar2314/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </span>
+                </article>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="col">
+                <img src="assets/img/logo.svg" alt="Logo Libur.in">
+                <p>Liburan? Libur.in aja</p>
+            </div>
+            <div class="col">
+                <h3>Menu</h3>
+                <p>Home</p>
+                <p>About Us</p>
+            </div>
+            <div class="col">
+                <h3>Partner</h3>
+                <p>Transport Partner</p>
+                <p>Hotels Partner</p>
+            </div>
+            <div class="col">
+                <h3>Further Information</h3>
+                <p>Terms & Conditions</p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+        <p id="copyright">&copy; Copyright 2022 Libur.in. All Rights Reserved.</p>
+    </footer>
+    <script src="assets/script.js"></script>
+</body>
+</html>
